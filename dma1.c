@@ -12,7 +12,7 @@ int main() {
     }
     printf("\n First Location = %u", *(ptr + 0));
     printf("\n Second Location = %u", *(ptr + 1));
-    printf("\n Second Location = %u", *(ptr + 2));
+    printf("\n Third Location = %u", *(ptr + 2));
 
     free (ptr);
     printf("\nMeomery is deallocated");
