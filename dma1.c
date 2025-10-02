@@ -10,8 +10,9 @@ int main() {
     for(i=0; i<n; i++) {
         *(ptr + i) = i * 100;
     }
-    printf("\n Fifth Location = %u", *(ptr + 0));
+    printf("\n First Location = %u", *(ptr + 0));
     printf("\n Second Location = %u", *(ptr + 1));
+    printf("\n Second Location = %u", *(ptr + 2));
 
     free (ptr);
     printf("\nMeomery is deallocated");
